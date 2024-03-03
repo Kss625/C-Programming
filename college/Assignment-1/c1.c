@@ -2,76 +2,71 @@
 #include<math.h>
 int main()
 {
-    // Question-1
-    int num1 = 5;
-    int num2 = 6;
-    int sum = num1 + num2;
-    printf("Sum Of %d and %d is %d\n", num1, num2, sum);
+//     // Question-1
+//     int num1 = 5;
+//     int num2 = 6;
+//     int sum = num1 + num2;
+//     printf("Sum Of %d and %d is %d\n", num1, num2, sum);
 
-    // Question-2
-    int myNum = 10;
-    printf("%d\n", myNum);
+//     // Question-2
+//     int myNum = 10;
+//     printf("%d\n", myNum);
 
-    // Question-3
-    int numCheck;
-    printf("Enter The Number:");
-    scanf("%d", &numCheck);
+//     // Question-3
+//     int numCheck;
+//     printf("Enter The Number:");
+//     scanf("%d", &numCheck);
 
-    if (numCheck % 2 == 0)
-    {
-        printf("Even");
-    }
-    else
-    {
-        printf("Odd");
-    }
-    printf("\n");
+//     if (numCheck % 2 == 0)
+//     {
+//         printf("Even");
+//     }
+//     else
+//     {
+//         printf("Odd");
+//     }
+//     printf("\n");
 
-    // Question-4
+//     // Question-4
     int n;
     printf("Enter The Positive Number:");
     scanf("%d", &n);
 
-    if (n <= 0)
-    {
-        printf("Please Enter A Positive Number");
-    }
+    if (n <= 0) printf("Please Enter A Positive Number");
+    
     else
     {
         for (int i = 1; i <= n; i++)
         {
-            if (i == 5)
-                break;
-            else
-                printf("%d ", i);
+            if (i == 5) break;
+            else printf("%d ", i);
         }
     }
-    printf("\n");
 
-    // Question- 5
-    int n1;
-    printf("Enter The Positive Number:");
-    scanf("%d", &n1);
+//     // Question- 5
+//     int n1;
+//     printf("Enter The Positive Number:");
+//     scanf("%d", &n1);
 
-    if (n1 <= 0)
-    {
-        printf("Please Enter A Positive Number");
-    }
-    else
-    {
-        for (int i = 1; i <= n1; i++)
-        {
-            if (i == 5)
-                continue;
-            else
-                printf("%d ", i);
-        }
-    }
-    printf("\n");
+//     if (n1 <= 0)
+//     {
+//         printf("Please Enter A Positive Number");
+//     }
+//     else
+//     {
+//         for (int i = 1; i <= n1; i++)
+//         {
+//             if (i == 5)
+//                 continue;
+//             else
+//                 printf("%d ", i);
+//         }
+//     }
+//     printf("\n");
 
-    // Question-6=> use of static class
+//     // Question-6=> use of static class
 
-    // Question-7
+//     // Question-7
     int f1, f2;
     printf("Enter Two Numbers: ");
     scanf("%d %d", &f1, &f2);
@@ -83,16 +78,16 @@ int main()
 
     printf("Sum is :%d\n Difference is :%d\n Product is :%d\n Quotient is:%d\n", sum1, sub, mul, divide);
 
-    // Question-8
-    int year;
-    printf("Enter Year: ");
-    scanf("%d", &year);
+//     // Question-8
+//     int year;
+//     printf("Enter Year: ");
+//     scanf("%d", &year);
 
-    if ((year % 400 == 0) || (year % 100 != 0 && year % 4 == 0))
-        printf("Leap Year");
+//     if ((year % 400 == 0) || (year % 100 != 0 && year % 4 == 0))
+//         printf("Leap Year");
 
-    else
-        printf("Not a leap year");
+//     else
+//         printf("Not a leap year");
 
     // Question-9
     int day;
@@ -126,17 +121,17 @@ int main()
         printf("Not a valid Day Number");
     }
 
-    // Question 10 - pyramid Question
+//     // Question 10 - pyramid Question
 
     // Question 11
-    int f1,f2;
-    printf("Enter Two Numbers(a and b):");
-    scanf("%d %d", &f1,&f2);
-    printf("Currently a=%d and b=%d:\n",f1,f2);
-    int temp = f1 + f2;
-    f1 = temp - f1;
-    f2 = temp - f2;
-    printf("After Swapping a=%d and b=%d:",f1,f2);
+    // int f1,f2;
+    // printf("Enter Two Numbers(a and b):");
+    // scanf("%d %d", &f1,&f2);
+    // printf("Currently a=%d and b=%d:\n",f1,f2);
+    // int temp = f1 + f2;
+    // f1 = temp - f1;
+    // f2 = temp - f2;
+    // printf("After Swapping a=%d and b=%d:",f1,f2);
 
     // Question -12
     int n1, n2, n3;
@@ -191,7 +186,7 @@ int main()
         }
     }
 
-    // Question-15 use of extern storage class
+//     // Question-15 use of extern storage class
 
     // Question- 16
     double radius;
@@ -264,7 +259,10 @@ int main()
 
     float compoundInterest = (pi) * (pow((1 + rate / 100), time)-1);
     printf("Compound Interest Will be %f\n", compoundInterest);
-
+    
+    // Question-21 reverse the number
+    // Question -22 sum of  the digits
+    // Question -23 check given number is palindrome or not,Armstrong or not
     
 
     return 0;
