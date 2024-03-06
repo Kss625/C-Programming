@@ -14,8 +14,8 @@ int main()
     x=x+5;// update the value of value of x using previous value of x
     printf("x=%d,y=%d\n",x,y);
 
-    int z=7.9;
-    printf("%d\n",z);// print integer value of decimal numbers
+    int z = 7.9;     // z takes integer part of given float number
+    printf("%d\n",z);
 
     int a=11;
     int b=5;
